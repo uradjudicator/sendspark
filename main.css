@@ -1,0 +1,100 @@
+a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+input,
+select,
+textarea {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+body{
+    background: #FEF5E4;
+}
+
+.title{
+    font-family: Roboto;
+}
+
+.text{
+    font-family: Inter;
+}
+/* general */
+.navbar {
+    padding: 32px 0;
+}
+
+.navbar .menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.navbar .menu a:nth-child(5) {
+    padding: 16px 22px;
+    border-radius: 4px;
+    border: 2px solid #6140FF;
+    background: #6140FF;
+}
+
+.navbar .menu a li {
+    color: #000;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    
+}
+
+/* hero */
+
+
+
+.hero .row {
+    justify-content: space-between;
+}
+
+.hero .row .text-part {
+    width: 448px;
+    padding-top: 25px;
+    background: rgb(132, 132, 206);
+}
+
+.hero .row .title {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 52px;
+}
+.hero .row .text {
+    width: 407px;   
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 30px 0 18px;
+}
+
+.hero .row .btn{
+    padding: 20px 30px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 400;   
+    line-height: 24px;
+}
