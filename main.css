@@ -61,7 +61,6 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-    
 }
 
 
@@ -73,7 +72,6 @@ body{
 .hero .row .text-part {
     width: 380px;
     padding-top: 25px;
-    background: #fd6e6e;
 }
 
 .hero .row .title {
@@ -97,9 +95,8 @@ body{
     font-weight: 400;
     line-height: 24px;
 }
-.hero .row .hero-img{
-    background: #550101;
-}
+.hero .row .hero-img{}
+
 .hero .row .hero-img img{
     width: 100%;
     height: 100%;
@@ -186,7 +183,6 @@ border: 2px solid #110746;
 transition: 0.7s;
 }
 
-/* <!-- hold section by Ibrohim --> */
 /* left */
 
 .info-hold {
@@ -245,7 +241,6 @@ transition: 0.7s;
 .engage .wrapper {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     margin-top: 71px;
 }
 
