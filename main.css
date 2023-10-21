@@ -42,11 +42,21 @@ body {
     padding: 32px 0;
 }
 
+.navbar .container  {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 .navbar .menu {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     gap: 40px;
+}
+.navbar .mobile-menu,
+.navbar .burger {
+    display: none;
 }
 
 .navbar .menu a:nth-child(5) {
@@ -72,11 +82,11 @@ body {
 }
 
 .hero .row .text-part {
-    width: 380px;
     padding-top: 25px;
 }
 
 .hero .row .title {
+    width: 349px;
     font-size: 48px;
     font-weight: 400;
     line-height: 52px;
