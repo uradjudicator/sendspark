@@ -117,6 +117,10 @@ body {
 }
 
 /* brands */
+.brands{
+    padding: 88px 0 128px;
+} 
+
 .brands .brand-icons {
     display: flex;
     justify-content: center;
@@ -124,32 +128,20 @@ body {
     gap: 40px;
 }
 
-.brands .brand-icons .img-icon {
-    margin: 120px 40px;
-    gap: 40px;
-}
-
 /* record */
-
 .record .info {
     display: flex;
     justify-content: space-between;
 }
 
-.record .info .left {
-    width: 544px;
-    height: 408px;
+.record .info .left{
+    /* must be width here, also left part */
 }
 
 .record .info .left img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.record .info .right {
-    width: 416px;
-    height: 408px;
 }
 
 .record .info .right .title {
@@ -159,6 +151,7 @@ body {
 }
 
 .record .info .right .text {
+    width: 370px;
     font-size: 11px;
     font-weight: 400;
     color: #655B6E;
@@ -174,7 +167,6 @@ body {
     margin-bottom: 12px;
 }
 
-
 .google-btn {
     margin-top: 5px;
     padding: 16px 22px;
@@ -183,12 +175,10 @@ body {
     background: #6140FF;
     color: #FFF8EE;
     font-family: Roboto;
-
 }
 
 .google-btn img {
     margin-right: 8px;
-
 }
 
 .google-btn:hover {
@@ -198,7 +188,6 @@ body {
 }
 
 /* left */
-
 .info-hold {
     margin: 120px auto;
 }
