@@ -447,7 +447,7 @@ body {
 
 /* future */
 .future .desc {
-    padding: 44px 0 ;
+    padding: 44px 0;
     background-color: #100B2B;
     border-radius: 16px;
     text-align: center;
@@ -471,7 +471,7 @@ body {
 
 .future .desc .title {
     width: 435px;
-    margin: 0 auto ;
+    margin: 0 auto;
     font-size: 38px;
     color: #FEF5E4;
     font-weight: 400;
@@ -483,7 +483,7 @@ body {
     font-weight: 400;
 }
 
-.future .desc .btn{
+.future .desc .btn {
     width: 274px;
     border-radius: 4px;
     background-color: #6140FF;
@@ -501,6 +501,56 @@ body {
     transition: 0.5s;
 }
 
-.future .desc .text{
+.future .desc .text {
     margin-bottom: 68px;
+}
+
+/* footer */
+.footer{
+    color: #000;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 125px 0 18px;
+}
+
+.footer .left-content .text-footer {
+    width: 340px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 31px 0 43px;
+}
+
+.footer .left-content .sci{
+    display: flex;
+
+    gap: 13px;
+    margin-bottom: 39px;
+}
+.footer .left-content .sci .each-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.footer .left-content .sci i{
+    color: #fff;
+}
+
+.footer .right-content {
+    display: flex;
+    gap: 160px;
+}
+
+.footer .right-content .text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31px;
+
 }
