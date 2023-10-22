@@ -42,18 +42,20 @@ body {
     padding: 32px 0;
 }
 
-.navbar .container  {
-    
+.navbar .container {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
+
 .navbar .menu {
     display: flex;
     align-items: center;
     gap: 40px;
 }
+
 .navbar .mobile-menu,
 .navbar .burger {
     display: none;
@@ -409,12 +411,12 @@ body {
 }
 
 /* percentage */
-.percentage{
+.percentage {
     padding-top: 96px;
     color: #FEF5E4;
 }
 
-.percentage .wrapper{
+.percentage .wrapper {
     display: flex;
     justify-content: space-between;
     padding: 68px 94px 88px;
@@ -422,22 +424,83 @@ body {
     border-radius: 16px;
 }
 
-.percentage .wrapper .part{
+.percentage .wrapper .part {
     text-align: center;
 }
 
-.percentage .wrapper .part .title{
+.percentage .wrapper .part .title {
     font-size: 38px;
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 8px;
 }
-.percentage .wrapper .part .text{
+
+.percentage .wrapper .part .text {
     font-size: 17px;
     font-weight: 400;
     line-height: 32px;
 }
 
-.percentage .wrapper .part .text:nth-child(3){
+.percentage .wrapper .part .text:nth-child(3) {
     margin: 4px 0;
+}
+
+/* future */
+.future .desc {
+    padding: 44px 0 ;
+    background-color: #100B2B;
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.future .desc::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./images/future-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+}
+
+.future .desc .title {
+    width: 435px;
+    margin: 0 auto ;
+    font-size: 38px;
+    color: #FEF5E4;
+    font-weight: 400;
+}
+
+.future .desc .text {
+    color: #655B6E;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.future .desc .btn{
+    width: 274px;
+    border-radius: 4px;
+    background-color: #6140FF;
+    padding: 20px 30px;
+    color: #FEF5E4;
+    margin: 24px 0 17px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.future .desc .btn:hover {
+    background-color: #15065f;
+    border-color: #15065f;
+    transition: 0.5s;
+}
+
+.future .desc .text{
+    margin-bottom: 68px;
 }
