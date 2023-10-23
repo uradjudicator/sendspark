@@ -1,7 +1,36 @@
 /* 1200 */
 @media(max-width:1200px) {
+    /* brands */
     .brands .brand-icons {
         gap: 80px;
+    }
+    /* record */
+    .record .info .left img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+    
+    .record .info .right .title {
+        font-size: 36px;
+    }
+    
+    .record .info .right .text {
+        width: 370px;
+        font-size: 11px;
+        line-height: 32px;
+        margin: 12px 0 9px;
+    }
+
+    .record .info .right .text-menu {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .google-btn {
+        margin-top: 5px;
+        padding: 13px 14px;
     }
 }
 
@@ -40,7 +69,6 @@
         font-size: 42px;
         font-weight: 400;
         line-height: 46px;
-
     }
 
     .hero .row .text {
@@ -49,7 +77,6 @@
         font-weight: 400;
         line-height: 24px;
         margin: 14px 0 12px;
-
     }
 
     .hero .row .btn {
@@ -69,26 +96,28 @@
     /* record */
     .record .row{
         justify-content: space-between;
+        /* background-color: #ec9c9c; */
     }
-    .record .row .left {
-        width: 48%;
-    }
+   
     .record .row .right {
-        width: 48%;
         padding: 28px 0 3px;
     }
     .record .info .right .title {
-    font-size: 34px;
+    font-size: 30px;
 
     }
     .record .info .right .text-menu {
         font-size: 16px;
     }
-    
     .record .info .right .text {
+        line-height: 22px;
         width: 300px;
-        line-height: 30px;
         margin: 20px 0 9px;
+    }
+
+    .google-btn {
+        margin-top: 5px;
+        padding: 8px 6px;
     }
 }
 
@@ -192,6 +221,20 @@
         flex-wrap: wrap;
         gap: 75px;
     }
+
+    /* record */
+    .record .row .right{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .record .row .right .text{
+        margin: 20px auto 10px;
+    }
+
+    .google-btn {
+        margin-top: 10px;
+    }
+   
 }
 
 
@@ -222,6 +265,19 @@
         width: 100%;
         height: 100%;
         object-fit: contain;
+    }
+
+    /* records */
+    .record .row{
+        justify-content: center;
+    }
+    .record .row .left{
+        width: 90%;
+    }
+    .record .row .right .title{
+        font-size: 26px;
+        width: 380px;
+        margin: 0 auto;
     }
 }
 
@@ -265,7 +321,11 @@
         align-items: center;
         flex-direction: column;
     }
-
+    /* record */
+    .record .row .right .title{
+        font-size: 24px;
+        width: 90%;
+    }
 }
 
 /* 325 */

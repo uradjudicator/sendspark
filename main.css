@@ -134,9 +134,10 @@ body {
     justify-content: space-between;
 }
 
-.record .info .left{
-    /* must be width here, also left part */
+.record .info .right{
+
 }
+
 
 .record .info .left img {
     width: 100%;
