@@ -165,6 +165,17 @@
     .customers .wrapper .left-human .text {
         max-width: 485px;
     }
+
+    /* footer */
+
+    .footer .right-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer .left-content .text-footer {
+        max-width: 285px;
+    }
 }
 
 /* 770 */
@@ -365,7 +376,6 @@
     }
 
     /* future */
-
     .future .desc .title {
         font-size: 30px;
     }
