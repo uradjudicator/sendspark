@@ -122,6 +122,30 @@
     .info-hold .parrent .row .left-hold{
         padding: 40px 0;
     }
+
+    /* percentage */
+    .percentage .wrapper .part .title {
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 8px;
+    }
+
+    .percentage .wrapper .part .text {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .percentage .wrapper .part .text {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .percentage .wrapper .part {
+        margin: 35px 0;
+    }
 }
 
 /* 770 */
