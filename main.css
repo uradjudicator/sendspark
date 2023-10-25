@@ -455,7 +455,7 @@ body {
 }
 
 .future .desc .title {
-    width: 435px;
+    max-width: 435px;
     margin: 0 auto;
     font-size: 38px;
     color: #FEF5E4;
@@ -469,7 +469,7 @@ body {
 }
 
 .future .desc .btn {
-    width: 274px;
+    max-width: 274px;
     border-radius: 4px;
     background-color: #6140FF;
     padding: 20px 30px;

@@ -1,21 +1,23 @@
 /* 1200 */
 @media(max-width:1200px) {
+
     /* brands */
     .brands .brand-icons {
         gap: 80px;
     }
+
     /* record */
     .record .info .left img {
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
-    
-    
+
+
     .record .info .right .title {
         font-size: 36px;
     }
-    
+
     .record .info .right .text {
         width: 370px;
         font-size: 11px;
@@ -94,20 +96,23 @@
     }
 
     /* record */
-    .record .row{
+    .record .row {
         justify-content: space-between;
     }
-   
+
     .record .row .right {
         padding: 28px 0 3px;
     }
+
     .record .info .right .title {
-    font-size: 30px;
+        font-size: 30px;
 
     }
+
     .record .info .right .text-menu {
         font-size: 16px;
     }
+
     .record .info .right .text {
         line-height: 22px;
         width: 300px;
@@ -118,8 +123,9 @@
         margin-top: 5px;
         padding: 8px 6px;
     }
+
     /* info-hold */
-    .info-hold .parrent .row .left-hold{
+    .info-hold .parrent .row .left-hold {
         padding: 40px 0;
     }
 
@@ -151,9 +157,11 @@
     .customers .left-cust .text {
         max-width: 450px;
     }
+
     .customers .wrapper .right-show .text {
         max-width: 485px;
     }
+
     .customers .wrapper .left-human .text {
         max-width: 485px;
     }
@@ -261,11 +269,12 @@
     }
 
     /* record */
-    .record .row .right{
+    .record .row .right {
         text-align: center;
         margin-top: 20px;
     }
-    .record .row .right .text{
+
+    .record .row .right .text {
         margin: 20px auto 10px;
     }
 
@@ -273,21 +282,36 @@
         margin-top: 10px;
     }
 
-   /* info-hold */
-   .info-hold .parrent .row .left-hold{
-    text-align: center;
-   }
+    /* info-hold */
+    .info-hold .parrent .row .left-hold {
+        text-align: center;
+    }
 
-   /* customers */
-   .customers .wrapper {
-    text-align: center;
-   }
-   .customers .wrapper .second-part {
-    display: flex;
-    flex-direction: column-reverse!important;
-    text-align: center;
-    margin: 40px 0;
-   }
+    /* customers */
+    .customers .wrapper {
+        text-align: center;
+    }
+
+    .customers .wrapper .second-part {
+        display: flex;
+        flex-direction: column-reverse !important;
+        text-align: center;
+        margin: 40px 0;
+    }
+}
+
+/* future */
+
+.future .desc .title {
+    font-size: 33px;
+}
+
+.future .desc .btn {
+    font-size: 17px;
+}
+
+.future .desc .text {
+    font-size: 16px;
 }
 
 
@@ -321,21 +345,38 @@
     }
 
     /* records */
-    .record .row{
+    .record .row {
         justify-content: center;
     }
-    .record .row .left{
+
+    .record .row .left {
         width: 90%;
     }
-    .record .row .right .title{
+
+    .record .row .right .title {
         font-size: 26px;
         width: 380px;
         margin: 0 auto;
     }
-/* customers */
+
+    /* customers */
     .customers .wrapper .second-part {
         margin: 50px 0;
-       }
+    }
+
+    /* future */
+
+    .future .desc .title {
+        font-size: 30px;
+    }
+
+    .future .desc .btn {
+        font-size: 17px;
+    }
+
+    .future .desc .text {
+        font-size: 16px;
+    }
 }
 
 /* 430 */
@@ -378,15 +419,39 @@
         align-items: center;
         flex-direction: column;
     }
+
     /* record */
-    .record .row .right .title{
+    .record .row .right .title {
         font-size: 24px;
         width: 90%;
     }
-    
+
     /* info-hold */
-    .info-hold .parrent .row{
+    .info-hold .parrent .row {
         padding: 50px 0;
+    }
+
+    /* future */
+
+    .future .desc .title {
+        font-size: 28px;
+    }
+
+    .future .desc .btn {
+        font-size: 15px;
+    }
+
+    .future .desc .text {
+        font-size: 14px;
+    }
+
+    .future .desc::before {
+        background: none;
+    }
+
+    .future .desc .btn {
+        padding: 15px 22px;
+        max-width: 200px;
     }
 }
 
@@ -401,5 +466,28 @@
 
     .hero .row .text {
         line-height: 20px;
+    }
+
+    /* future */
+    .future .desc .title {
+        font-size: 28px;
+    }
+
+    .future .desc .btn {
+        font-size: 15px;
+    }
+
+    .future .desc .text {
+        font-size: 14px;
+    }
+
+    .future .desc::before {
+        background: none;
+    }
+
+    .future .desc .btn {
+        padding: 15px 22px;
+        max-width: 200px;
+        margin: 30px 17px;
     }
 }
