@@ -500,6 +500,7 @@ body {
 .footer .container .parent-wrapper {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .footer .left-content .text-footer {
