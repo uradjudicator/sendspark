@@ -352,7 +352,7 @@ body {
     color: #655B6E;
     font-size: 17px;
     font-weight: 400;
-    width: 450px;
+    max-width: 450px;
 }
 
 /* second */
@@ -372,7 +372,7 @@ body {
     color: #655B6E;
     font-size: 17px;
     font-weight: 400;
-    width: 485px;
+    max-width: 485px;
 }
 
 /* tird */
@@ -392,7 +392,7 @@ body {
     color: #655B6E;
     font-size: 17px;
     font-weight: 400;
-    width: 485px;
+    max-width: 485px;
 }
 
 /* percentage */

@@ -146,6 +146,17 @@
     .percentage .wrapper .part {
         margin: 35px 0;
     }
+
+    /* customers */
+    .customers .left-cust .text {
+        max-width: 450px;
+    }
+    .customers .wrapper .right-show .text {
+        max-width: 485px;
+    }
+    .customers .wrapper .left-human .text {
+        max-width: 485px;
+    }
 }
 
 /* 770 */
@@ -266,6 +277,17 @@
    .info-hold .parrent .row .left-hold{
     text-align: center;
    }
+
+   /* customers */
+   .customers .wrapper {
+    text-align: center;
+   }
+   .customers .wrapper .second-part {
+    display: flex;
+    flex-direction: column-reverse!important;
+    text-align: center;
+    margin: 40px 0;
+   }
 }
 
 
@@ -310,6 +332,10 @@
         width: 380px;
         margin: 0 auto;
     }
+/* customers */
+    .customers .wrapper .second-part {
+        margin: 50px 0;
+       }
 }
 
 /* 430 */
