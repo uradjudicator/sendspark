@@ -269,7 +269,7 @@ body {
 
 .engage .wrapper .right .first-line {
     content: '';
-    width: 384px;
+    max-width: 384px;
     height: 8px;
     border-radius: 10px;
     border: 4px solid #6140FF;
@@ -279,7 +279,7 @@ body {
 
 .engage .wrapper .right .second-line {
     content: '';
-    width: 384px;
+    max-width: 384px;
     height: 8px;
     border-radius: 10px;
     border: 4px solid #100b2b1a;
@@ -289,7 +289,7 @@ body {
 
 .engage .wrapper .right .third-line {
     content: '';
-    width: 384px;
+    max-width: 384px;
     height: 8px;
     border-radius: 10px;
     border: 4px solid #100b2b1a;
