@@ -376,6 +376,10 @@
     }
 
     /* future */
+    .footer{
+        padding-left: 8px;
+    }
+    
     .future .desc .title {
         font-size: 30px;
     }
